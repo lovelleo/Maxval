@@ -24,11 +24,11 @@
     <target name="retrieveUnpackagedCCI">
 	  <mkdir dir="retrieveUnpackaged"/>
        <!-- Retrieve the contents into another directory -->
-      <sf:retrieve username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveUnpackaged" unpackaged="package.xml"/>
+      <sf:retrieve username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveUnpackaged" unpackaged="scr/package.xml"/>
     </target>
 	 <target name="DeployUnpackagedCCI">
 	  <mkdir dir="retrieveUnpackaged"/>
-		<sf:retrieve username="${sf.username_d}" password="${sf.password_d}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl_d}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveUnpackaged" unpackaged="package.xml"/>
+		<sf:retrieve username="${sf.username_d}" password="${sf.password_d}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl_d}" maxPoll="${sf.maxPoll}" retrieveTarget="retrieveUnpackaged" unpackaged="scr/package.xml"/>
 		<sf:deploy  username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="retrieveUnpackaged" rollbackOnError="true" />
 	</target>
  
