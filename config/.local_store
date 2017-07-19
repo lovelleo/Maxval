@@ -14,15 +14,17 @@
         "mmState": "clean"
     },
     "CircleCI.page": {
-        "createdById": "0056F000006DLaWQAW",
-        "createdByName": "Lovel Panchal",
-        "createdDate": "2017-07-18T11:53:40.000Z",
-        "fileName": "unpackaged/pages/CircleCI.page",
-        "fullName": "CircleCI",
         "id": "0666F000007PDi2QAG",
+        "name": "CircleCI",
+        "createdDate": "2017-07-18T11:53:40.000+0000",
+        "createdById": "0056F000006DLaWQAW",
+        "namespacePrefix": null,
         "lastModifiedById": "0056F000006DLaWQAW",
+        "lastModifiedDate": "2017-07-19T10:28:46.000+0000",
+        "fullName": "CircleCI",
+        "fileName": "unpackaged/pages/CircleCI.page",
+        "createdByName": "Lovel Panchal",
         "lastModifiedByName": "Lovel Panchal",
-        "lastModifiedDate": "2017-07-19T07:07:20.000Z",
         "manageableState": "unmanaged",
         "type": "ApexPage",
         "mmState": "clean"
