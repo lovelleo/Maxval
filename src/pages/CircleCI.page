@@ -3,6 +3,6 @@
       body,form,html{background: blue; font-size: 40px;}
         
     </style>
-    We use CircleCi Yay !!! for continious integration..!!!
+    We use CircleCi Yay !!! for continious integration..!!! 
     
 </apex:page>
