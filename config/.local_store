@@ -1,0 +1,72 @@
+{
+    "SLDS202.resource": {
+        "createdById": "0056F000006DLaWQAW",
+        "createdByName": "Lovel Panchal",
+        "createdDate": "2017-02-22T20:20:45.000Z",
+        "fileName": "unpackaged/staticresources/SLDS202.resource",
+        "fullName": "SLDS202",
+        "id": "0816F000000S5R3QAK",
+        "lastModifiedById": "0056F000006DLaWQAW",
+        "lastModifiedByName": "Lovel Panchal",
+        "lastModifiedDate": "2017-02-22T20:20:45.000Z",
+        "manageableState": "unmanaged",
+        "type": "StaticResource",
+        "mmState": "clean"
+    },
+    "CircleCI.page": {
+        "createdById": "0056F000006DLaWQAW",
+        "createdByName": "Lovel Panchal",
+        "createdDate": "2017-07-18T11:53:40.000Z",
+        "fileName": "unpackaged/pages/CircleCI.page",
+        "fullName": "CircleCI",
+        "id": "0666F000007PDi2QAG",
+        "lastModifiedById": "0056F000006DLaWQAW",
+        "lastModifiedByName": "Lovel Panchal",
+        "lastModifiedDate": "2017-07-19T07:07:20.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "FileController.cls": {
+        "createdById": "0056F000006DLaWQAW",
+        "createdByName": "Lovel Panchal",
+        "createdDate": "2017-02-22T19:34:00.000Z",
+        "fileName": "unpackaged/classes/FileController.cls",
+        "fullName": "FileController",
+        "id": "01p6F000008a4M4QAI",
+        "lastModifiedById": "0056F000006DLaWQAW",
+        "lastModifiedByName": "Lovel Panchal",
+        "lastModifiedDate": "2017-02-23T01:49:49.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "AccountOpportunity.cls": {
+        "createdById": "0056F000006DLaWQAW",
+        "createdByName": "Lovel Panchal",
+        "createdDate": "2017-04-22T04:10:07.000Z",
+        "fileName": "unpackaged/classes/AccountOpportunity.cls",
+        "fullName": "AccountOpportunity",
+        "id": "01p6F000009bYHbQAM",
+        "lastModifiedById": "0056F000006DLaWQAW",
+        "lastModifiedByName": "Lovel Panchal",
+        "lastModifiedDate": "2017-04-22T11:11:05.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "PatentController.cls": {
+        "createdById": "0056F000006DLaWQAW",
+        "createdByName": "Lovel Panchal",
+        "createdDate": "2017-02-22T18:43:29.000Z",
+        "fileName": "unpackaged/classes/PatentController.cls",
+        "fullName": "PatentController",
+        "id": "01p6F000008a4HmQAI",
+        "lastModifiedById": "0056F000006DLaWQAW",
+        "lastModifiedByName": "Lovel Panchal",
+        "lastModifiedDate": "2017-07-18T12:27:25.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    }
+}

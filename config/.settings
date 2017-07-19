@@ -1,0 +1,17 @@
+{
+    "projectName": "MaxvalIP",
+    "username": "lovel@maxvalip.com",
+    "id": "078c0b10-41f9-11e7-9ba3-5df1acb71805",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://lovel-maxval-ip-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\INCAPSULATE\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
