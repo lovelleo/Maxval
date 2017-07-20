@@ -7,7 +7,6 @@ dependencies:
   override:
     - 'pip install --upgrade pip'
     - 'pip install --upgrade cumulusci'	
-    - 'Export CUMULUSCI_KEY=q7w8d4f5fg12h36j'
     test:
         post:
         - 'mkdir -p $CIRCLE_TEST_REPORTS/junit/'
