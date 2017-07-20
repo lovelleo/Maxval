@@ -1,18 +1,16 @@
 machine:
   python:
-    version: 2.7.12
+    version: 2.7.8
 environment:
   CUMULUSCI_KEYCHAIN_CLASS: cumulusci.core.keychain.EnvironmentProjectKeychain
 dependencies:
   override:
     - 'pip install --upgrade pip'
-    - 'pip install --upgrade -r requirements.txt'
+    - 'pip install --upgrade cumulusci'
 test:
   override:
-    - 'cci flow run ci_feature_cumulus --org feature'
+    - 'cci flow run ci_feature_cumulus --org Maxval'
   post:
     - 'mkdir -p $CIRCLE_TEST_REPORTS/junit/'
-    - 'cp test_results.xml $CIRCLE_TEST_REPORTS/junit/'
-    - 'mkdir -p Repo'	
-    - 'cci task run retrieve_unpackaged -o package_xml src\package.xml -o path Repo'
-    - 'cci task run deploy --org Maxval -o path Repo'
+    - 'cci task run retrieve_unpackaged -o package_xml src\package.xml -o path $CIRCLE_TEST_REPORTS/junit/'
+    - 'cci task run deploy --org Maxval -o path $CIRCLE_TEST_REPORTS/junit/'
