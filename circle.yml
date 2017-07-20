@@ -6,10 +6,9 @@ environment:
 dependencies:
   override:
     - 'pip install --upgrade pip'
-    - 'pip install --upgrade cumulusci'
-    - 'Export CumulusCi_Key=q7w8d4f5fg12h36j'	
+    - 'pip install --upgrade cumulusci'	
     test:
         post:
         - 'mkdir -p $CIRCLE_CI/Repo/'
-        - 'cci task run retrieve_unpackaged -o package_xml src\package.xml -o path $CIRCLE_CI/Repo/'
+        - 'cci task run retrieve_unpackaged -o package_xml src/package.xml -o path $CIRCLE_CI/Repo/'
         - 'cci task run deploy --org Maxval -o path $CIRCLE_CI/Repo/'
