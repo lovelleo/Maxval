@@ -7,7 +7,7 @@ dependencies:
   override:
     - 'pip install --upgrade pip'
     - 'pip install --upgrade cumulusci'
-    - 'SET CumulusCi_Key=q7w8d4f5fg12h36j'	
+    - 'Export CumulusCi_Key=q7w8d4f5fg12h36j'	
     test:
         post:
         - 'mkdir -p $CIRCLE_CI/Repo/'
