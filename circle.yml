@@ -7,7 +7,7 @@ dependencies:
   override:
     - 'pip install --upgrade pip'
     - 'pip install --upgrade cumulusci'
-    - 'Set cumulusci_key=q7w8d4f5fg12h36j'
+    - 'cumulusci_key=q7w8d4f5fg12h36j'
 test:
   post:
     - 'mkdir -p $CIRCLE_TEST_REPORTS/junit/'
