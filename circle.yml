@@ -13,6 +13,6 @@ test:
   post:
     - 'mkdir -p $CIRCLE_TEST_REPORTS/junit/'
     - 'cp test_results.xml $CIRCLE_TEST_REPORTS/junit/'
-    - 'mkdir' -p Repo	
-    - cci task run retrieve_unpackaged -o package_xml "src\package.xml" -o path "Repo"
-    - cci task run deploy --org Maxval -o path "Repo"
+    - 'mkdir -p Repo'	
+    - 'cci task run retrieve_unpackaged -o package_xml src\package.xml -o path Repo'
+    - 'cci task run deploy --org Maxval -o path Repo'
