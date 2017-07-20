@@ -1,8 +1,8 @@
 <apex:page sidebar="false" showHeader="false">
     <style>
-      body,form,html{background: #ccc; font-size: 40px;}
+      body,form,html{background: #000; font-size: 40px; color : #ccc;}
         
     </style>
-    We use CircleCi Yay !!! for continious integration..!!! 
+    We use CircleCi + Cumuclus Yay !!! for continious integration..!!! 
     Hello I am Lovel and team
 </apex:page>
