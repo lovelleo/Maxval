@@ -9,7 +9,8 @@ dependencies:
     - 'pip install --upgrade cumulusci'
     - 'SET CumulusCi_Key=q7w8d4f5fg12h36j'
     - 'Export CumulusCi_Key=q7w8d4f5fg12h36j'	
-  post:
-    - 'mkdir -p Repo'
-    - 'cci task run retrieve_unpackaged -o package_xml src\package.xml -o path Repo'
-    - 'cci task run deploy --org Maxval -o path Repo'
+    test:
+        post:
+        - 'mkdir -p Repo'
+        - 'cci task run retrieve_unpackaged -o package_xml src\package.xml -o path Repo'
+        - 'cci task run deploy --org Maxval -o path Repo'
