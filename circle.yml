@@ -2,7 +2,7 @@ machine:
   python:
     version: 2.7.8
 environment:
-  #CUMULUSCI_KEYCHAIN_CLASS: cumulusci.core.keychain.EnvironmentProjectKeychain
+  CUMULUSCI_KEYCHAIN_CLASS: cumulusci.core.keychain.EnvironmentProjectKeychain
 dependencies:
   override:
     - 'pip install --upgrade pip'
@@ -12,5 +12,5 @@ test:
   post:
     - 'mkdir -p $CIRCLE_TEST_REPORTS/junit/'
     - 'cp test_results.xml $CIRCLE_TEST_REPORTS/junit/'
-    - 'cci task run retrieve_unpackaged -o package_xml src/package.xml -o path $CIRCLE_TEST_REPORTS/junit/'
+    - 'cci task run retrieve_unpackaged --org Maxval -o package_xml src/package.xml -o path $CIRCLE_TEST_REPORTS/junit/'
     - 'cci task run deploy --org Maxval -o path $CIRCLE_TEST_REPORTS/junit/'
