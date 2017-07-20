@@ -1,8 +1,8 @@
- machine:
+machine:
   python:
     version: 2.7.8
 environment:
-  CUMULUSCI_KEYCHAIN_CLASS: cumulusci.core.keychain.EnvironmentProjectKeychain
+  #CUMULUSCI_KEYCHAIN_CLASS: cumulusci.core.keychain.EnvironmentProjectKeychain
 dependencies:
   override:
     - 'pip install --upgrade pip'
