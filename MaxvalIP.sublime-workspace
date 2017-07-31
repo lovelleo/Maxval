@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"font-size"
+			],
+			[
+				"s",
+				"sidebar\t(Boolean)"
+			],
+			[
 				"Ser",
 				"ServiceRequestType__c"
 			],
@@ -50,6 +58,15 @@
 				"buffer_size": 571,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "src/pages/CircleCI.page",
+			"settings":
+			{
+				"buffer_size": 266,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -90,7 +107,9 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/INCAPSULATE/Documents/MaxvalIP"
+		"/C/Users/INCAPSULATE/Documents/MaxvalIP",
+		"/C/Users/INCAPSULATE/Documents/MaxvalIP/src",
+		"/C/Users/INCAPSULATE/Documents/MaxvalIP/src/classes"
 	],
 	"file_history":
 	[
@@ -195,7 +214,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -220,6 +239,34 @@
 							"syntax": "Packages/XML/XML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/pages/CircleCI.page",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Visualforce.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -264,7 +311,7 @@
 	"menu_visible": true,
 	"output.MavensMate-OutputPanel":
 	{
-		"height": 0.0
+		"height": 88.0
 	},
 	"output.find_results":
 	{
