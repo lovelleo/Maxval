@@ -63,7 +63,7 @@
 			"file": "src/pages/CircleCI.page",
 			"settings":
 			{
-				"buffer_size": 266,
+				"buffer_size": 256,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -253,15 +253,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								256,
+								256
 							]
 						],
 						"settings":
